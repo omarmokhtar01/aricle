@@ -1,0 +1,11 @@
+@use './variables' as *;
+@mixin btn-hover{
+    background-color: $txt;
+    color: $white_color;
+    border-radius: 0;
+}
+@mixin background-img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
